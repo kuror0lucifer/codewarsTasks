@@ -31,3 +31,9 @@ function createPhoneNumber(numbers) {
   }
   return phone;
 }
+
+function createPhoneNumber(numbers) {
+  let mask = "(***) ***-****";
+  numbers.forEach((x) => (mask = mask.replace("*", x)));
+  return mask;
+}
