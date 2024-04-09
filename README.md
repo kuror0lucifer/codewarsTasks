@@ -1,2 +1,3 @@
 # codewarsTasks
-Solving various tasks from codewars.com in javascript, python and CPP
+
+Solving various tasks from codewars.com in javascript, typescript, python and CPP
