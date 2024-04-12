@@ -21,7 +21,7 @@
 export function spinWords(words: string): string {
   let wordsArr = words
     .split(" ")
-    .map(x => (x.length > 5 ? (x = x.split("").reverse().join("")) : x))
+    .map(x => (x.length >= 5 ? (x = x.split("").reverse().join("")) : x))
     .join(" ");
   return wordsArr;
 }
