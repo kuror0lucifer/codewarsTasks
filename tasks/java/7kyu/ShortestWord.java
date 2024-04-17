@@ -4,7 +4,6 @@
 
 // String will never be empty and you do not need to account for different data types
 
-import java.util.Arrays;
 
 public class ShortestWord {
     public static int findShort(String s) {
@@ -17,6 +16,10 @@ public class ShortestWord {
             System.out.println(shortestWord);
         }
         return shortestWord.length();
+        // return Stream.of(s.split(" "))
+        //     .mapToInt(String :: length)
+        //     .min()
+        //     .getAsInt();
     }
     public static void main(String[] args) {
         System.out.println(findShort("Helo losd ls a sdl"));
