@@ -17,6 +17,7 @@
 
 // However, the arrays can have varying lengths, not just limited to 4.
 
+import java.util.Arrays;
 import java.util.List;
 
 public class OnesandZeros {
@@ -30,6 +31,9 @@ public class OnesandZeros {
             currentVal *= 2;
         }
         return sum;
+    }
+    public static void main(String[] args) {
+        System.out.println(ConvertBinaryArrayToInt(Arrays.asList(1,0,0,1)));
     }
     
 }
