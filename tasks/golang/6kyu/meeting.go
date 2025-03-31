@@ -1,4 +1,4 @@
-package eight_ky
+package main
 
 import (
 	"fmt"
